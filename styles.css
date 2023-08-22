@@ -30,6 +30,7 @@ a {
     flex-direction: column;
     background-color: #1F2937;
     color: white;
+    justify-content: center;
 }
 
 .header ul {
@@ -70,6 +71,7 @@ button {
     display: flex;
     padding: 10vh 20vw 10vh 20vw;
     gap: 20px;
+    justify-content: center;
 }
 
 .hero-section img {
@@ -87,4 +89,61 @@ button {
 
 }
 
-/* BODY */
+/* GRID CONTENT*/
+
+.grid-content {
+    display: flex;
+    background-color: white;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.grid-tile-container {
+    display: flex;
+    padding: 40px 20vw 10vh 20vw;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.grid-tile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    align-items: center ;
+    flex: 1;
+}
+
+.tile-img {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    flex: 1 1 auto;
+    height: 120px;
+    width: 120px;
+    color: #3882F6;
+}
+
+/* QUOTE SECTION */
+
+.quote-section {
+    background-color: rgb(233, 233, 233);
+    color: black;
+    padding: 40px 20vw 10vh 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote{
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.author{
+    font-weight: bold;
+    flex: 1;
+    align-self: flex-end;
+}
