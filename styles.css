@@ -102,7 +102,7 @@ button {
 
 .grid-tile-container {
     display: flex;
-    padding: 40px 20vw 10vh 20vw;
+    padding: 40px 20vw 5vh 20vw;
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
@@ -131,7 +131,7 @@ button {
 .quote-section {
     background-color: rgb(233, 233, 233);
     color: black;
-    padding: 40px 20vw 10vh 20vw;
+    padding: 40px 20vw 5vh 20vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,4 +146,42 @@ button {
     font-weight: bold;
     flex: 1;
     align-self: flex-end;
+}
+
+/* CALL TO ACTION */
+.call-to-action {
+    display: flex;
+    padding: 40px 10vw 5vh 10vw;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.call-to-action-container {
+    display: flex;
+    background-color: #3882F6;
+    padding: 3vh 10vw 3vh 10vw;
+    border-radius: 8px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.call-to-action-content {
+    justify-self: flex-start;
+    font-size: smaller;
+}
+
+.call-to-action-btn {
+    border: 2px solid white;
+    flex: 1 0 0;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    padding: 3vh 3vw 3vh 3vw;
 }
